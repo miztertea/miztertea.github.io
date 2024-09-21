@@ -1,0 +1,65 @@
+body {
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    font-family: Arial, sans-serif;
+    text-align: center;  /* Center the content on the page */
+}
+
+.table-dark {
+    background-color: #2d2f31;
+    border-collapse: collapse;
+    width: 80%;  /* Set the table width to 80% */
+    margin: 20px auto;  /* Center the table horizontally */
+    text-align: center;  /* Center-align the table */
+}
+
+.table-dark th, .table-dark td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;  /* Center-align table headers and data cells */
+}
+
+.table-dark th {
+    background-color: #1b1e21;
+    color: #e5e5e5;
+    font-weight: bold;
+}
+
+.table-dark tbody tr:nth-child(even) {
+    background-color: #232527;
+}
+
+.table-dark tbody tr:nth-child(odd) {
+    background-color: #282a2e;
+}
+
+.table-dark tbody tr:hover {
+    background-color: #484b51;
+}
+
+.timestamp {
+    text-align: right;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 10px;
+}
+
+.table-dark td:nth-child(odd), 
+.table-dark th:nth-child(odd) {
+    color: #cc3333; /* Horde - Red */
+}
+
+.table-dark td:nth-child(even), 
+.table-dark th:nth-child(even) {
+    color: #3377cc; /* Alliance - Blue */
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 768;
+    height: auto;
+}
